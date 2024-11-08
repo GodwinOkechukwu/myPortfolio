@@ -34,6 +34,19 @@ function Projects() {
       <motion.div className="w-[80%] m-auto">
         <div className="w-[100%] md:grid md:m-auto md:grid-cols-3 m-auto md:mx-6 md:gap-5  mt-[60px]">
           <ProjectCard
+            title="A Job Hub Website"
+            skill="HTML, CSS, JavaScript, React, Redux, Tailwind">
+            <Link target="_blank" href="https://nxgjobhub.com">
+              <Image
+                src="/nxgJobHub.png"
+                alt="screenshot"
+                width={500}
+                height={500}
+                className="object-fill h-[70%] rounded-2xl"
+              />
+            </Link>
+          </ProjectCard>
+          <ProjectCard
             title="A room Service Website"
             skill="HTML, CSS, JavaScript">
             <Link

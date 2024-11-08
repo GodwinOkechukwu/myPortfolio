@@ -24,7 +24,7 @@ function Resume() {
         </h1>
         <div className="mt-[80px]">
           <button className="w-[70%] relative bg-transparent transition-all duration-500 text-center rounded-full text-white border border-pink-500 py-4 hover:border-black hover:bg-pink-500 md:w-[35%]">
-            <Link href="/My Updated Cv.pdf" target="_blank">
+            <Link href="/mylatestcv.pdf" target="_blank">
               View Resume
             </Link>
             <svg
@@ -43,16 +43,16 @@ function Resume() {
               <path
                 d="M9.1667 15H20.8334"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokewidth="1.5"
+                strokelinecap="round"
+                strokelinejoin="round"
               />
               <path
                 d="M16.6667 10.8331L20.8334 14.9998L16.6667 19.1665"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>

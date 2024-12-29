@@ -47,13 +47,11 @@ function Projects() {
             </Link>
           </ProjectCard>
           <ProjectCard
-            title="A room Service Website"
-            skill="HTML, CSS, JavaScript">
-            <Link
-              target="_blank"
-              href="https://keneson-room-home-page.netlify.app/">
+            title="A Mock Test Website"
+            skill="HTML, CSS, ReactJs,TypeScript,Redux">
+            <Link target="_blank" href="https://www.lynspeed.com.ng/">
               <Image
-                src="/room.png"
+                src="/lynspeed.png"
                 alt="roomImg"
                 width={500}
                 height={500}
@@ -63,12 +61,12 @@ function Projects() {
           </ProjectCard>
 
           <ProjectCard
-            title="A Bank Service website"
-            skill="HTML, JavaScript, React, Tailwind">
+            title="A Money Management Website"
+            skill="HTML, JavaScript, React, Tailwind,Redux">
             <div className="h-full">
-              <Link target="_blank" href="https://ebank-keneson.netlify.app/">
+              <Link target="_blank" href="https://payina.com.ng/">
                 <Image
-                  src="/bankedit.png"
+                  src="/payina.png"
                   alt="bankImg"
                   width={500}
                   height={500}
@@ -79,28 +77,12 @@ function Projects() {
           </ProjectCard>
 
           <ProjectCard
-            title="An E-commerce website"
-            skill=" HTML, Tailwind, JavaScript, NextJs">
-            <Link target="_blank" href="https://ecommercevictoria.vercel.app/">
+            title="An IT Company Website"
+            skill=" HTML, Tailwind, JavaScript, Reactjs, ">
+            <Link target="_blank" href="https://nextgenhub.com.ng/">
               <Image
-                src="/ecommerce.png"
+                src="/nextgenhub.png"
                 alt="ecommerceImg"
-                width={500}
-                height={500}
-                className="object-fill h-[70%] rounded-2xl"
-              />
-            </Link>
-          </ProjectCard>
-
-          <ProjectCard
-            title="A website to Search for Countries"
-            skill="HTML, Tailwind, NextJs, ContextApi">
-            <Link
-              target="_blank"
-              href="https://search-country-beta-ten.vercel.app/">
-              <Image
-                src="/country-edit.png"
-                alt="countryImg"
                 width={500}
                 height={500}
                 className="object-fill h-[70%] rounded-2xl"
